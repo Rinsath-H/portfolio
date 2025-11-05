@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    width: 100%;
+}
+.Head-img{
+    width: 100%;
+    height: 500px;           /* adjust height */
+    object-fit: cover; 
+    margin-bottom: 30px;      /* keeps image proportion */
+    display: block;
+}
+.auto-color{
+    animation: colorChange 3s infinite;
+}
+@keyframes colorChange {
+    10% { color: white; }
+    50%{color: black;}
+}
+
+header h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.Int{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.Headings{
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 20px;
+    
+}
+.Introductions p{
+   padding:5px 0;
+   margin: 0px auto;
+   transition: 1s ease-in-out;
+}
+.lists{
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
